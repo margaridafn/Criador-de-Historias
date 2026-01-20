@@ -10,7 +10,7 @@ tempo = input("Insira o tempo em que a história se passa: ")
 
 print("\n\nA criar a sua história...", end="\n\n")
 
-print("Uma História em", lugar, sep="**", end="\n")
-print("Era uma vez um(a)", adjetivo," chamado(a)", nome, end=" ")
-print("que viajava por", lugar,", e que fazia", verbo + ".", end="\n")
+print("Uma", "História", "em", lugar, sep="**", end="\n\n")
+print("Era uma vez um(a)", adjetivo,"chamado(a)", nome, end=" ")
+print("que viajava por", lugar,"e que fazia", verbo + ".", end="\n")
 print("Tudo isso aconteceu", tempo + ".", end="\n\n")
